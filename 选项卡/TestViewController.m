@@ -31,8 +31,8 @@
 
 }
 
--(void)actionWithClickedItemNumber:(NSInteger)number{
-    NSLog(@"CLICKED:%d",number);
+-(void)tab:(LMJTab *)tab didSelectedItemNumber:(NSInteger)number{
+    NSLog(@"CLICKED:%ld",number);
 }
 
 
